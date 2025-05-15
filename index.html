@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>First_task</title>
+    </head>
+    <body>
+
+    <form name="search" method="post" action="">
+        <div>
+        <label for="password" style="display: block">Password</label>
+       <input type="password" name="password" placeholder="password" id="password" />
+
+        </div>
+        <div>
+            <label>
+                I agree about
+                <input type="checkbox" name="agree" checked="checked" />
+            </label>
+        </div>
+        <div>
+            <h3>Gender</h3>
+            <label>
+                <input type="radio" name="gender" value="male" checked="checked" />
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female" checked="checked" />
+            </label>
+        </div>
+        <button type="reset">Clear</button>
+        <button type="submit">Send</button>
+        <button type="button">Other</button>
+        <div>
+            <input type="file" value="load" />
+        </div>
+        <div>
+            <label for="massage" style="display: block">Message</label>
+            <textarea name="massage" id="massage" cols="30" rows="10" style="resize: none"></textarea>
+        </div>
+        <div>
+        <select id="City" name="city">
+            <label for="city">City</label>
+            <option >Kharkiv</option>
+            <option >Bristol</option>
+            <option >London</option>
+        </select>
+        </div>
+    </form>
+
+
+
+    </body>
+</html>
